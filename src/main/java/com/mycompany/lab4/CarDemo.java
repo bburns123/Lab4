@@ -25,6 +25,9 @@ public class CarDemo {
             scanner.nextLine();
         }
         
+        System.out.println("Press 'Enter' to break 5 times!");
+        scanner.nextLine();
+        
         for(int counter = 1; counter <=5; counter++) {
             car1.brake();
             System.out.println("Current speed: " + car1.getSpeed());
